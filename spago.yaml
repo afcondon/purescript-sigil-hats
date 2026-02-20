@@ -1,5 +1,7 @@
 workspace:
-  extraPackages: {}
+  extraPackages:
+    sigil:
+      path: ../purescript-sigil
 
 package:
   name: sigil-hats
