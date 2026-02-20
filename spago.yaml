@@ -1,0 +1,18 @@
+workspace:
+  extraPackages: {}
+
+package:
+  name: sigil-hats
+  description: Bridge from Sigil layout trees to HATS Tree for declarative composition
+  publish:
+    version: 0.1.0
+    license: MIT
+    location:
+      githubOwner: afcondon
+      githubRepo: purescript-sigil-hats
+  dependencies:
+    - arrays: ">=7.3.0 <8.0.0"
+    - hylograph-selection: ">=0.2.0 <0.3.0"
+    - maybe: ">=6.0.0 <7.0.0"
+    - prelude: ">=6.0.2 <7.0.0"
+    - sigil: ">=0.3.0 <0.4.0"

@@ -1,0 +1,6 @@
+/output/
+/.spago/
+/node_modules/
+/demo/output/
+/demo/.spago/
+/demo/node_modules/
