@@ -6,7 +6,7 @@
         "core": {
           "dependencies": [
             {
-              "hylograph-selection": ">=0.2.0 <0.3.0"
+              "hylograph-selection": ">=0.3.1 <0.4.0"
             },
             {
               "maybe": ">=6.0.0 <7.0.0"
@@ -14,9 +14,7 @@
             {
               "prelude": ">=6.0.2 <7.0.0"
             },
-            {
-              "sigil": ">=0.3.0 <0.4.0"
-            }
+            "sigil"
           ]
         },
         "test": {
@@ -24,7 +22,11 @@
         }
       }
     },
-    "extra_packages": {}
+    "extra_packages": {
+      "sigil": {
+        "path": "../purescript-sigil"
+      }
+    }
   },
   "packages": {
     "arrays": {
@@ -330,8 +332,8 @@
     },
     "hylograph-graph": {
       "type": "registry",
-      "version": "0.1.0",
-      "integrity": "sha256-0sfy5Z0U+X78LNRO/H6xJwi45ECaHr/FF2SNNcpAhew=",
+      "version": "0.2.0",
+      "integrity": "sha256-TmOOCHbF8KbOLHegvKINm635hoGI2tTgSdiYCOeqSXM=",
       "dependencies": [
         "arrays",
         "either",
@@ -350,8 +352,8 @@
     },
     "hylograph-selection": {
       "type": "registry",
-      "version": "0.2.0",
-      "integrity": "sha256-KTsBdX9zmTupTFnqxQ9hs6UjxrM+gCj0y4u9YYzY3+8=",
+      "version": "0.3.1",
+      "integrity": "sha256-02bb82LelMRywIs5ZvTtwLCnBh8VXrjbSpx+to2nRl8=",
       "dependencies": [
         "arrays",
         "colors",
@@ -650,9 +652,8 @@
       ]
     },
     "sigil": {
-      "type": "registry",
-      "version": "0.3.0",
-      "integrity": "sha256-AkxQmeLWPwjls15NBh6PieKztZd14NA/5ySGBkEVurE=",
+      "type": "local",
+      "path": "../purescript-sigil",
       "dependencies": [
         "arrays",
         "effect",
