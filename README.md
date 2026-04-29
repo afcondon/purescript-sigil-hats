@@ -63,7 +63,7 @@ card = elem Group [ F.transform "translate(100,200)" ]
 
 24 PureScript type classes across 8 hierarchies in a zoomable, draggable force-directed grid. Each node is a full class declaration rendered via this bridge.
 
-**[Live demo](https://afcondon.github.io/purescript-sigil-hats/)**
+**[Live demo](https://afcondon.github.io/purescript-hylograph-demos/sigil-hats/)**
 
 https://github.com/user-attachments/assets/FunctorMonad.mov
 
